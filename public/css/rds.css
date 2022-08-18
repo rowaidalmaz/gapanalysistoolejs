@@ -1,0 +1,229 @@
+label, button {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+    }
+
+    input[type="checkbox" i] {
+      background-color: initial;
+      cursor: default;
+      appearance: auto;
+      box-sizing: border-box;
+      margin: 3px 3px 3px 1px;
+      margin-left: 60px;
+      padding: initial;
+      border: initial;
+    }
+    
+ input {
+    color: #232F3E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    border: none;
+    border-bottom: 1px solid #12293b;
+    box-shadow:0 0 15px 3px rgba(0,0,0,0.06);
+
+
+    }
+#card-container{
+margin: auto;
+width: 70%;
+padding: 20px;
+padding-bottom: 10px;
+}
+
+
+.card-header{
+    background-color: #12293b ;
+    box-sizing: border-box;
+    -moz-box-align: center;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px ;
+}
+
+h2{
+    color:aliceblue;
+    font-size: x-large;
+}
+
+
+* {
+box-sizing: border-box;
+}
+
+
+h1{
+font-size: 32px;
+color: #fff;
+line-height: 100px;
+text-transform: uppercase;
+font-weight: 900;
+/* font-family: amazonember; */
+
+}
+nav{
+position: absolute;
+text-align: left;
+margin-top: 90px;
+bottom: 0;
+/* height: 80px; */
+line-height: 10px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 -10px;
+/* background-color: rgba(251, 248, 248, 0.1); */
+}
+
+a{
+  color: rgb(254, 252, 252);
+  display: inline-block;
+  padding: 10px 15px;
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 100;
+
+}
+
+
+p{
+font-size: 20px;
+text-align: left;
+margin-left: 240px;
+color: rgb(32, 43, 72);
+line-height: 100px;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+button {
+background-color: #12293b;
+color: #ffffff;
+border: navajowhite;
+padding: 10px 40px;
+margin-left: 1100px;
+margin-bottom: 50px;
+font-size: 17px;
+/* margin-top: 1px; */
+font-family: Raleway;
+cursor: pointer;
+border-radius: 12px;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+.button-box{
+padding-left: 210px;
+}
+
+.partnername-a{
+color: rgb(254, 252, 252);
+  display: inline-block;
+  /* padding: 10px 15px; */
+  line-height: 1;
+  font-weight: 100;
+  text-align: right;
+  font-size: small;
+
+
+}
+
+h3{
+color: rgb(254, 252, 252);
+font-size: medium;
+  display: inline-block;
+  padding: 9px 5px;
+  line-height: 1;
+  font-weight: 100;
+  text-align: right;
+}
+
+.tag-partnername{
+box-sizing: border-box;
+}
+
+span{
+font-size: x-small;
+margin-left: 60px;
+margin-bottom: 50px;
+
+}
+
+.checkbox,.RDSoption{
+margin-left: 60px;
+margin-top: 10px;
+}
+
+
+.label{
+font-size: medium;
+}
+
+hr {
+display: block;
+unicode-bidi: isolate;
+margin-block-start: 0.5em;
+margin-block-end: 0.5em;
+margin-inline-start: auto;
+margin-inline-end: auto;
+overflow: hidden;
+border-style: inset;
+border-width: 1px;
+}
+
+
+input:required + span:after {
+content: "Required";
+}
+
+
+.add_form_field{
+
+background-color: #12293b;
+color: #ffffff;
+border: navajowhite;
+padding: 6px 5px;
+margin-left: 50px;
+margin-bottom: 50px;
+font-size: 15px;
+margin-top: 15px;
+margin-bottom: 15px;
+font-family: Raleway;
+cursor: pointer;
+border-radius: 12px;
+
+
+}
+
+.add_form_field2{
+background-color: #12293b;
+color: #ffffff;
+border: navajowhite;
+padding: 6px 5px;
+margin-left: 50px;
+margin-bottom: 50px;
+font-size: 15px;
+margin-top: 15px;
+margin-bottom: 15px;
+font-family: Raleway;
+cursor: pointer;
+border-radius: 12px;
+
+}
+#RDS,#RDS1,#RDS2,#RDS3,#RDS4,#RDS5,#RDS6,#RDS7,#RDS8{
+margin-left: 50px;
+margin-top: 15px;
+}
+
+#RDS2{
+margin-left: 50px;
+margin-top: 15px;
+}
+

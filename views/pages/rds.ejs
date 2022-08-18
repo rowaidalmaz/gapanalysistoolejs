@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- importint to redeghin -->
+<head>
+ 
+    <link rel="stylesheet" href="/css/rds.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
+<script src="https://mgskjaeveland.github.io/sgvizler/v/0.6/sgvizler.js"></script>
+
+    <script src="/js/sdp.js"></script>
+    <%- include('../partials/head') %>
+</head>
+
+
+
+
+<body>
+
+    <%- include('../partials/header') %>
+    <%- include('../shared/sharedreq') %>
+
+   <div class="card5">
+              <div class="card-header">
+                  <h2>RDS Prerequisites | Database Engine Specialty</h2>
+                  
+              </div>
+              <div class="card-body">           
+                <form> 
+                <label>Enter the database engine specialty</label><br>
+                <span>- Must be 2 unique examples of customers using the specific Amazon RDS practice</span><br>
+                <span>- Must be 1 example per customer</span><br>  
+                <span>- Must have been performed within the past 18 months</span>
+
+
+                <div class="RDSoption">
+                 <select id="Requirement5'">
+                    <option value="Amazon RDS for MySQL">Amazon RDS for MySQL</option>
+                    <option value="Amazon RDS for PostgreSQL">Amazon RDS for PostgreSQL</option>
+                    <option value="Microsoft SQL Server"> Microsoft SQL Server</option>
+                    <option value="Amazon RDS for MariaDB">Amazon RDS for MariaDB</option>
+                    <option value="Amazon RDS for Oracle">Amazon RDS for Oracle</option>
+                    <option value="Amazon Aurora MySQL">Amazon Aurora MySQL</option>
+                    <option value="Amazon Aurora PostgreSQL">Amazon Aurora PostgreSQL</option>
+                 </select>
+                 <input type="date" id="date-value"/><br>
+                  </div>
+                  
+
+                  <div>
+
+                    <input id="Requirement6" type="checkbox" name="case"  value="case #1"  />Customer Case Study #1
+                    <br><input id="Requirement7" type="checkbox" name="case" value="case #2" />Customer Case Study #2
+  
+        
+                  </div>
+            
+                  
+           
+
+                <br><br><label>The additional engine specialty</label><br>
+                      <span>- Allowed to submit case studies from the same customer </span><br>
+                      <span>- All case studies submitted should address unique workloads</span><br>
+                      <div class="container2">   
+
+                        <button class="add_form_field2">Add new case study &nbsp; 
+                          <span  style="font-size:16px; margin-left:2px;">+ </span>
+                        </button> 
+                        </div>
+                      </form>
+                    </div>
+            </div>
+          
+            
+  
+  
+      
+      </div>
+  
+  
+  
+            <!-- <a id="button" type="submit" href="/report" onclick="handleSubmit()">Next: Step 3</a> -->
+            <button><a class="btn-press" href="/report" onclick="handleSubmit()" >Next: Step 3 </a></button>
+
+
+
+
+
+</body>
+
+
+  
+
+</html>
+
+<%- include('../partials/footer') %>

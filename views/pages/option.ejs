@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+
+
+
+<%- include('../partials/head') %>
+<link rel="stylesheet" href="/css/option.css" type="text/css">
+<script src="/js/option.js"></script>
+
+
+
+
+</head>
+
+
+
+<body>
+   
+
+    <%- include('../partials/header') %>
+    <div class="user">
+        
+        <form class="form">
+            <div class="form__group">
+                <input type="text" placeholder="Partner Name" class="form__input" />
+            </div>
+            
+            <div class="form__group">
+
+                <select class="form__input" onchange="enableProgram(this)">
+                    <option  value="">Please select</option>
+                    <option value="1" >competency program</option>
+                    <option value="0" >AWS Service Delivery Program</option>
+                  </select>           
+                 </div>
+            
+            <div class="form__group">
+                <select  id="SDP-program" class="d-none">
+                    <option value="STORGE">RDS Program</option>
+                  </select>
+            </div>
+            
+            <!-- <button class="btn" type="button">Register</button> -->
+            <button type="button" class="btn" onclick="getval(),handleSubmit()">Next: Step 2</button>
+
+        </form>
+    </div>
+
+
+
+
+
+   
+    <!-- <form id="regForm">
+        <div class="textbox1">Partner Name
+          <p><input  type="textbox" id="partnername" placeholder="Partner Name" oninput="this.className = ''" name="Pname"></p>
+          </div>
+      
+          <div class="textbox2"> Differentiation Programs
+      
+            <select id="op" onchange="enableProgram(this)">
+              <option  value="">Please select</option>
+              <option value="1" >competency program</option>
+              <option value="0" >AWS Service Delivery Program</option>
+            </select>
+      
+      
+        <select id="SDP-program" class="d-none">
+          <option value="STORGE">RDS Program</option>
+        </select>
+            </div>
+            <div id="button-box">
+              <button type="button" id="nextBtn" onclick="getval(),handleSubmit()">  Next: Step 2   </button>
+            </div>
+      
+      
+       
+      </form>
+      
+       -->
+
+</body>
+
+
+
+</body>
+</head>
